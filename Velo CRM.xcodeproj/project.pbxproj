@@ -11,6 +11,46 @@
 		1D0B157E2AFEC6DB0040499C /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D0B157D2AFEC6DB0040499C /* ContentView.swift */; };
 		1D0B15802AFEC6DD0040499C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1D0B157F2AFEC6DD0040499C /* Assets.xcassets */; };
 		1D0B15842AFEC6DD0040499C /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1D0B15832AFEC6DD0040499C /* Preview Assets.xcassets */; };
+		1D0B15AE2AFEC8250040499C /* CWManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D0B15AD2AFEC8250040499C /* CWManager.swift */; };
+		1D29E6672B02B0770075990A /* iOSCheckboxToggleStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D29E6662B02B0770075990A /* iOSCheckboxToggleStyle.swift */; };
+		1D29E6692B02B8350075990A /* ServiceTicketTable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D29E6682B02B8350075990A /* ServiceTicketTable.swift */; };
+		1D29E66B2B02C2810075990A /* FileCommands.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D29E66A2B02C2810075990A /* FileCommands.swift */; };
+		1D29E66E2B02C3500075990A /* CompanyTable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D29E66D2B02C3500075990A /* CompanyTable.swift */; };
+		1D33C03B2B334F6900C4BD2F /* VeloCallManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D33C03A2B334F6900C4BD2F /* VeloCallManager.swift */; };
+		1D33C03D2B334FC600C4BD2F /* VeloCall.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D33C03C2B334FC600C4BD2F /* VeloCall.swift */; };
+		1D33C03F2B33522600C4BD2F /* CallWidget.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D33C03E2B33522600C4BD2F /* CallWidget.swift */; };
+		1D33C0412B3352C100C4BD2F /* Avatar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D33C0402B3352C100C4BD2F /* Avatar.swift */; };
+		1D33C0432B336B0300C4BD2F /* RootView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D33C0422B336B0300C4BD2F /* RootView.swift */; };
+		1D33C0462B337D5200C4BD2F /* RoundedCardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D33C0452B337D5200C4BD2F /* RoundedCardView.swift */; };
+		1D33C0492B3381EA00C4BD2F /* ContactTable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D33C0482B3381EA00C4BD2F /* ContactTable.swift */; };
+		1D33C04B2B33838A00C4BD2F /* ContactModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D33C04A2B33838A00C4BD2F /* ContactModel.swift */; };
+		1D33C04E2B3389B400C4BD2F /* ContactModal.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D33C04D2B3389B400C4BD2F /* ContactModal.swift */; };
+		1D33C0512B338C2D00C4BD2F /* BorderedButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D33C0502B338C2D00C4BD2F /* BorderedButton.swift */; };
+		1D33C0552B33941900C4BD2F /* OutboundDialer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D33C0542B33941900C4BD2F /* OutboundDialer.swift */; };
+		1D33C0572B33A5BF00C4BD2F /* CallWidgetCallDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D33C0562B33A5BF00C4BD2F /* CallWidgetCallDetail.swift */; };
+		1D33C0592B33AB7D00C4BD2F /* CallDirectory.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D33C0582B33AB7D00C4BD2F /* CallDirectory.swift */; };
+		1D33C05B2B33ABAB00C4BD2F /* CallDirectoryListItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D33C05A2B33ABAB00C4BD2F /* CallDirectoryListItem.swift */; };
+		1D87AEFA2B052ADD003EEA3D /* CompanyModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D87AEF92B052ADD003EEA3D /* CompanyModel.swift */; };
+		1D87AEFC2B052BCE003EEA3D /* SystemLocationModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D87AEFB2B052BCE003EEA3D /* SystemLocationModel.swift */; };
+		1D87AEFE2B052D29003EEA3D /* TicketModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D87AEFD2B052D29003EEA3D /* TicketModel.swift */; };
+		1D87AF002B052DD8003EEA3D /* BoardModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D87AEFF2B052DD8003EEA3D /* BoardModel.swift */; };
+		1D87AF022B052E77003EEA3D /* DepartmentModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D87AF012B052E77003EEA3D /* DepartmentModel.swift */; };
+		1D87AF042B052FD7003EEA3D /* CompanyDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D87AF032B052FD7003EEA3D /* CompanyDetailView.swift */; };
+		1D87AF062B054CFD003EEA3D /* TicketNotesListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D87AF052B054CFD003EEA3D /* TicketNotesListView.swift */; };
+		1D87AF082B054D3A003EEA3D /* StatusItemView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D87AF072B054D3A003EEA3D /* StatusItemView.swift */; };
+		1D87AF0A2B055135003EEA3D /* NoteItemView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D87AF092B055135003EEA3D /* NoteItemView.swift */; };
+		1D87AF0C2B0551E8003EEA3D /* ServiceTicketNoteModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D87AF0B2B0551E8003EEA3D /* ServiceTicketNoteModel.swift */; };
+		1D87AF0F2B066025003EEA3D /* CompanyDetailOverviewTab.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D87AF0E2B066025003EEA3D /* CompanyDetailOverviewTab.swift */; };
+		1D87AF112B06616D003EEA3D /* MetricCardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D87AF102B06616D003EEA3D /* MetricCardView.swift */; };
+		1D9809DA2B07E1080054773C /* VeloManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D9809D92B07E1080054773C /* VeloManager.swift */; };
+		1D9809DE2B07F5260054773C /* SidebarListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D9809DD2B07F5260054773C /* SidebarListView.swift */; };
+		1D9809E02B07F5890054773C /* ContentListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D9809DF2B07F5890054773C /* ContentListView.swift */; };
+		1D9809E22B07F5E00054773C /* DetailListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D9809E12B07F5E00054773C /* DetailListView.swift */; };
+		1DF7855F2AFEFAAF0060EC0F /* ToolbarDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DF7855E2AFEFAAF0060EC0F /* ToolbarDelegate.swift */; };
+		1DF785612AFEFABF0060EC0F /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DF785602AFEFABF0060EC0F /* SceneDelegate.swift */; };
+		1DF785632AFEFACD0060EC0F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DF785622AFEFACD0060EC0F /* AppDelegate.swift */; };
+		1DF7858D2B026B250060EC0F /* TicketDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DF7858C2B026B250060EC0F /* TicketDetailView.swift */; };
+		1DF7858F2B0281350060EC0F /* LabeledInput.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DF7858E2B0281350060EC0F /* LabeledInput.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -20,6 +60,46 @@
 		1D0B157F2AFEC6DD0040499C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		1D0B15812AFEC6DD0040499C /* Velo_CRM.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Velo_CRM.entitlements; sourceTree = "<group>"; };
 		1D0B15832AFEC6DD0040499C /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		1D0B15AD2AFEC8250040499C /* CWManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CWManager.swift; sourceTree = "<group>"; };
+		1D29E6662B02B0770075990A /* iOSCheckboxToggleStyle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = iOSCheckboxToggleStyle.swift; sourceTree = "<group>"; };
+		1D29E6682B02B8350075990A /* ServiceTicketTable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ServiceTicketTable.swift; sourceTree = "<group>"; };
+		1D29E66A2B02C2810075990A /* FileCommands.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FileCommands.swift; sourceTree = "<group>"; };
+		1D29E66D2B02C3500075990A /* CompanyTable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CompanyTable.swift; sourceTree = "<group>"; };
+		1D33C03A2B334F6900C4BD2F /* VeloCallManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VeloCallManager.swift; sourceTree = "<group>"; };
+		1D33C03C2B334FC600C4BD2F /* VeloCall.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VeloCall.swift; sourceTree = "<group>"; };
+		1D33C03E2B33522600C4BD2F /* CallWidget.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CallWidget.swift; sourceTree = "<group>"; };
+		1D33C0402B3352C100C4BD2F /* Avatar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Avatar.swift; sourceTree = "<group>"; };
+		1D33C0422B336B0300C4BD2F /* RootView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RootView.swift; sourceTree = "<group>"; };
+		1D33C0452B337D5200C4BD2F /* RoundedCardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoundedCardView.swift; sourceTree = "<group>"; };
+		1D33C0482B3381EA00C4BD2F /* ContactTable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContactTable.swift; sourceTree = "<group>"; };
+		1D33C04A2B33838A00C4BD2F /* ContactModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContactModel.swift; sourceTree = "<group>"; };
+		1D33C04D2B3389B400C4BD2F /* ContactModal.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContactModal.swift; sourceTree = "<group>"; };
+		1D33C0502B338C2D00C4BD2F /* BorderedButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BorderedButton.swift; sourceTree = "<group>"; };
+		1D33C0542B33941900C4BD2F /* OutboundDialer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OutboundDialer.swift; sourceTree = "<group>"; };
+		1D33C0562B33A5BF00C4BD2F /* CallWidgetCallDetail.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CallWidgetCallDetail.swift; sourceTree = "<group>"; };
+		1D33C0582B33AB7D00C4BD2F /* CallDirectory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CallDirectory.swift; sourceTree = "<group>"; };
+		1D33C05A2B33ABAB00C4BD2F /* CallDirectoryListItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CallDirectoryListItem.swift; sourceTree = "<group>"; };
+		1D87AEF92B052ADD003EEA3D /* CompanyModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CompanyModel.swift; sourceTree = "<group>"; };
+		1D87AEFB2B052BCE003EEA3D /* SystemLocationModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SystemLocationModel.swift; sourceTree = "<group>"; };
+		1D87AEFD2B052D29003EEA3D /* TicketModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TicketModel.swift; sourceTree = "<group>"; };
+		1D87AEFF2B052DD8003EEA3D /* BoardModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BoardModel.swift; sourceTree = "<group>"; };
+		1D87AF012B052E77003EEA3D /* DepartmentModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DepartmentModel.swift; sourceTree = "<group>"; };
+		1D87AF032B052FD7003EEA3D /* CompanyDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CompanyDetailView.swift; sourceTree = "<group>"; };
+		1D87AF052B054CFD003EEA3D /* TicketNotesListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TicketNotesListView.swift; sourceTree = "<group>"; };
+		1D87AF072B054D3A003EEA3D /* StatusItemView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StatusItemView.swift; sourceTree = "<group>"; };
+		1D87AF092B055135003EEA3D /* NoteItemView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NoteItemView.swift; sourceTree = "<group>"; };
+		1D87AF0B2B0551E8003EEA3D /* ServiceTicketNoteModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ServiceTicketNoteModel.swift; sourceTree = "<group>"; };
+		1D87AF0E2B066025003EEA3D /* CompanyDetailOverviewTab.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CompanyDetailOverviewTab.swift; sourceTree = "<group>"; };
+		1D87AF102B06616D003EEA3D /* MetricCardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MetricCardView.swift; sourceTree = "<group>"; };
+		1D9809D92B07E1080054773C /* VeloManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VeloManager.swift; sourceTree = "<group>"; };
+		1D9809DD2B07F5260054773C /* SidebarListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SidebarListView.swift; sourceTree = "<group>"; };
+		1D9809DF2B07F5890054773C /* ContentListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentListView.swift; sourceTree = "<group>"; };
+		1D9809E12B07F5E00054773C /* DetailListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailListView.swift; sourceTree = "<group>"; };
+		1DF7855E2AFEFAAF0060EC0F /* ToolbarDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToolbarDelegate.swift; sourceTree = "<group>"; };
+		1DF785602AFEFABF0060EC0F /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		1DF785622AFEFACD0060EC0F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		1DF7858C2B026B250060EC0F /* TicketDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TicketDetailView.swift; sourceTree = "<group>"; };
+		1DF7858E2B0281350060EC0F /* LabeledInput.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LabeledInput.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -52,11 +132,25 @@
 		1D0B157A2AFEC6DB0040499C /* Velo CRM */ = {
 			isa = PBXGroup;
 			children = (
+				1D33C04F2B338C1500C4BD2F /* View Modifiers */,
+				1D29E66C2B02C3340075990A /* Views */,
+				1D0B158A2AFEC7080040499C /* Models */,
 				1D0B157B2AFEC6DB0040499C /* Velo_CRMApp.swift */,
 				1D0B157D2AFEC6DB0040499C /* ContentView.swift */,
 				1D0B157F2AFEC6DD0040499C /* Assets.xcassets */,
 				1D0B15812AFEC6DD0040499C /* Velo_CRM.entitlements */,
 				1D0B15822AFEC6DD0040499C /* Preview Content */,
+				1D0B15AD2AFEC8250040499C /* CWManager.swift */,
+				1DF7855E2AFEFAAF0060EC0F /* ToolbarDelegate.swift */,
+				1DF785602AFEFABF0060EC0F /* SceneDelegate.swift */,
+				1DF785622AFEFACD0060EC0F /* AppDelegate.swift */,
+				1D29E66A2B02C2810075990A /* FileCommands.swift */,
+				1D9809D92B07E1080054773C /* VeloManager.swift */,
+				1D9809DD2B07F5260054773C /* SidebarListView.swift */,
+				1D9809DF2B07F5890054773C /* ContentListView.swift */,
+				1D9809E12B07F5E00054773C /* DetailListView.swift */,
+				1D33C03A2B334F6900C4BD2F /* VeloCallManager.swift */,
+				1D33C03C2B334FC600C4BD2F /* VeloCall.swift */,
 			);
 			path = "Velo CRM";
 			sourceTree = "<group>";
@@ -67,6 +161,104 @@
 				1D0B15832AFEC6DD0040499C /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		1D0B158A2AFEC7080040499C /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				1D87AEF92B052ADD003EEA3D /* CompanyModel.swift */,
+				1D87AEFB2B052BCE003EEA3D /* SystemLocationModel.swift */,
+				1D87AEFD2B052D29003EEA3D /* TicketModel.swift */,
+				1D87AEFF2B052DD8003EEA3D /* BoardModel.swift */,
+				1D87AF012B052E77003EEA3D /* DepartmentModel.swift */,
+				1D87AF0B2B0551E8003EEA3D /* ServiceTicketNoteModel.swift */,
+				1D33C04A2B33838A00C4BD2F /* ContactModel.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		1D29E66C2B02C3340075990A /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				1D33C0522B3393F300C4BD2F /* Widgets */,
+				1D33C04C2B3389A400C4BD2F /* Modals */,
+				1D33C0472B3381A700C4BD2F /* Tables */,
+				1D33C0442B337D4800C4BD2F /* Utilites */,
+				1D87AF0D2B065FFA003EEA3D /* Company Detail View */,
+				1D29E6662B02B0770075990A /* iOSCheckboxToggleStyle.swift */,
+				1DF7858C2B026B250060EC0F /* TicketDetailView.swift */,
+				1DF7858E2B0281350060EC0F /* LabeledInput.swift */,
+				1D29E6682B02B8350075990A /* ServiceTicketTable.swift */,
+				1D87AF052B054CFD003EEA3D /* TicketNotesListView.swift */,
+				1D87AF072B054D3A003EEA3D /* StatusItemView.swift */,
+				1D87AF092B055135003EEA3D /* NoteItemView.swift */,
+				1D87AF102B06616D003EEA3D /* MetricCardView.swift */,
+				1D33C0402B3352C100C4BD2F /* Avatar.swift */,
+				1D33C0422B336B0300C4BD2F /* RootView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		1D33C0442B337D4800C4BD2F /* Utilites */ = {
+			isa = PBXGroup;
+			children = (
+				1D33C0452B337D5200C4BD2F /* RoundedCardView.swift */,
+			);
+			path = Utilites;
+			sourceTree = "<group>";
+		};
+		1D33C0472B3381A700C4BD2F /* Tables */ = {
+			isa = PBXGroup;
+			children = (
+				1D29E66D2B02C3500075990A /* CompanyTable.swift */,
+				1D33C0482B3381EA00C4BD2F /* ContactTable.swift */,
+			);
+			path = Tables;
+			sourceTree = "<group>";
+		};
+		1D33C04C2B3389A400C4BD2F /* Modals */ = {
+			isa = PBXGroup;
+			children = (
+				1D33C04D2B3389B400C4BD2F /* ContactModal.swift */,
+			);
+			path = Modals;
+			sourceTree = "<group>";
+		};
+		1D33C04F2B338C1500C4BD2F /* View Modifiers */ = {
+			isa = PBXGroup;
+			children = (
+				1D33C0502B338C2D00C4BD2F /* BorderedButton.swift */,
+			);
+			path = "View Modifiers";
+			sourceTree = "<group>";
+		};
+		1D33C0522B3393F300C4BD2F /* Widgets */ = {
+			isa = PBXGroup;
+			children = (
+				1D33C0532B33940300C4BD2F /* Call Widget */,
+			);
+			path = Widgets;
+			sourceTree = "<group>";
+		};
+		1D33C0532B33940300C4BD2F /* Call Widget */ = {
+			isa = PBXGroup;
+			children = (
+				1D33C03E2B33522600C4BD2F /* CallWidget.swift */,
+				1D33C0542B33941900C4BD2F /* OutboundDialer.swift */,
+				1D33C0562B33A5BF00C4BD2F /* CallWidgetCallDetail.swift */,
+				1D33C0582B33AB7D00C4BD2F /* CallDirectory.swift */,
+				1D33C05A2B33ABAB00C4BD2F /* CallDirectoryListItem.swift */,
+			);
+			path = "Call Widget";
+			sourceTree = "<group>";
+		};
+		1D87AF0D2B065FFA003EEA3D /* Company Detail View */ = {
+			isa = PBXGroup;
+			children = (
+				1D87AF032B052FD7003EEA3D /* CompanyDetailView.swift */,
+				1D87AF0E2B066025003EEA3D /* CompanyDetailOverviewTab.swift */,
+			);
+			path = "Company Detail View";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -85,6 +277,8 @@
 			dependencies = (
 			);
 			name = "Velo CRM";
+			packageProductDependencies = (
+			);
 			productName = "Velo CRM";
 			productReference = 1D0B15782AFEC6DB0040499C /* Velo CRM.app */;
 			productType = "com.apple.product-type.application";
@@ -113,6 +307,8 @@
 				Base,
 			);
 			mainGroup = 1D0B156F2AFEC6DB0040499C;
+			packageReferences = (
+			);
 			productRefGroup = 1D0B15792AFEC6DB0040499C /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -139,8 +335,48 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1D9809DE2B07F5260054773C /* SidebarListView.swift in Sources */,
+				1D29E6672B02B0770075990A /* iOSCheckboxToggleStyle.swift in Sources */,
+				1D33C04B2B33838A00C4BD2F /* ContactModel.swift in Sources */,
+				1D33C0552B33941900C4BD2F /* OutboundDialer.swift in Sources */,
+				1D33C0462B337D5200C4BD2F /* RoundedCardView.swift in Sources */,
+				1D33C0492B3381EA00C4BD2F /* ContactTable.swift in Sources */,
+				1D29E66E2B02C3500075990A /* CompanyTable.swift in Sources */,
 				1D0B157E2AFEC6DB0040499C /* ContentView.swift in Sources */,
+				1D29E66B2B02C2810075990A /* FileCommands.swift in Sources */,
+				1D87AF002B052DD8003EEA3D /* BoardModel.swift in Sources */,
+				1D33C04E2B3389B400C4BD2F /* ContactModal.swift in Sources */,
+				1D33C03F2B33522600C4BD2F /* CallWidget.swift in Sources */,
+				1D87AF0A2B055135003EEA3D /* NoteItemView.swift in Sources */,
+				1D87AF082B054D3A003EEA3D /* StatusItemView.swift in Sources */,
+				1D87AF0C2B0551E8003EEA3D /* ServiceTicketNoteModel.swift in Sources */,
+				1D33C0592B33AB7D00C4BD2F /* CallDirectory.swift in Sources */,
+				1D33C03B2B334F6900C4BD2F /* VeloCallManager.swift in Sources */,
+				1D29E6692B02B8350075990A /* ServiceTicketTable.swift in Sources */,
+				1D87AEFE2B052D29003EEA3D /* TicketModel.swift in Sources */,
+				1D87AF042B052FD7003EEA3D /* CompanyDetailView.swift in Sources */,
+				1D33C03D2B334FC600C4BD2F /* VeloCall.swift in Sources */,
+				1DF7858F2B0281350060EC0F /* LabeledInput.swift in Sources */,
+				1D87AF062B054CFD003EEA3D /* TicketNotesListView.swift in Sources */,
+				1D87AF022B052E77003EEA3D /* DepartmentModel.swift in Sources */,
+				1D87AEFA2B052ADD003EEA3D /* CompanyModel.swift in Sources */,
+				1DF785612AFEFABF0060EC0F /* SceneDelegate.swift in Sources */,
+				1D33C05B2B33ABAB00C4BD2F /* CallDirectoryListItem.swift in Sources */,
+				1D33C0432B336B0300C4BD2F /* RootView.swift in Sources */,
+				1D87AF112B06616D003EEA3D /* MetricCardView.swift in Sources */,
+				1D33C0512B338C2D00C4BD2F /* BorderedButton.swift in Sources */,
+				1D33C0572B33A5BF00C4BD2F /* CallWidgetCallDetail.swift in Sources */,
 				1D0B157C2AFEC6DB0040499C /* Velo_CRMApp.swift in Sources */,
+				1DF7858D2B026B250060EC0F /* TicketDetailView.swift in Sources */,
+				1D87AF0F2B066025003EEA3D /* CompanyDetailOverviewTab.swift in Sources */,
+				1D9809DA2B07E1080054773C /* VeloManager.swift in Sources */,
+				1D87AEFC2B052BCE003EEA3D /* SystemLocationModel.swift in Sources */,
+				1DF7855F2AFEFAAF0060EC0F /* ToolbarDelegate.swift in Sources */,
+				1D9809E22B07F5E00054773C /* DetailListView.swift in Sources */,
+				1D0B15AE2AFEC8250040499C /* CWManager.swift in Sources */,
+				1D33C0412B3352C100C4BD2F /* Avatar.swift in Sources */,
+				1D9809E02B07F5890054773C /* ContentListView.swift in Sources */,
+				1DF785632AFEFACD0060EC0F /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -203,6 +439,8 @@
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
+				OTHER_LDFLAGS = "-ObjC";
+				"OTHER_LDFLAGS[arch=*]" = "";
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 			};
@@ -257,6 +495,8 @@
 				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
+				OTHER_LDFLAGS = "-ObjC";
+				"OTHER_LDFLAGS[arch=*]" = "";
 				SWIFT_COMPILATION_MODE = wholemodule;
 			};
 			name = Release;
@@ -267,6 +507,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_ENTITLEMENTS = "Velo CRM/Velo_CRM.entitlements";
+				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"Velo CRM/Preview Content\"";
@@ -274,6 +515,7 @@
 				ENABLE_HARDENED_RUNTIME = YES;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = "Velo CRM";
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
 				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
@@ -292,7 +534,8 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "com.nicholasblack.Velo-CRM";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = auto;
-				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = YES;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -305,6 +548,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_ENTITLEMENTS = "Velo CRM/Velo_CRM.entitlements";
+				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"Velo CRM/Preview Content\"";
@@ -312,6 +556,7 @@
 				ENABLE_HARDENED_RUNTIME = YES;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = "Velo CRM";
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
 				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
@@ -330,7 +575,8 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "com.nicholasblack.Velo-CRM";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = auto;
-				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = YES;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
