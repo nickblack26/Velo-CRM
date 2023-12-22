@@ -1,10 +1,3 @@
-//
-//  CWManager.swift
-//  Velo CRM
-//
-//  Created by Nick Black on 11/10/23.
-//
-
 import Foundation
 import Observation
 

@@ -1,27 +1,24 @@
 import SwiftUI
 
-enum CallStatus: String {
-	case incoming
-	case inProgress
-}
-
 struct CallWidget: View {
-	@State private var muteMic: Bool = false
+    @Environment(CallManager.self) var callManager
 	@State private var showDialer: Bool = false
 	@State private var showDirectory: Bool = false
 	@State private var isHovering: Bool = false
-	@State private var status: CallStatus?
 	
     var body: some View {
+        @Bindable var callManager = callManager
 		Grid {
-			CallWidgetCallDetail(status: $status)
+            if let _ = callManager.activeCall {
+                CallWidgetCallDetail(call: $callManager.activeCall)
+            }
 			
 			if showDirectory {
 				CallDirectory()
 			}
 			
 			if showDialer {
-				if status != nil {
+                if let _ = callManager.activeCall {
 					Divider()
 						.background(.cardBackgroundSecondary)
 				}
@@ -34,21 +31,21 @@ struct CallWidget: View {
 			GridRow {
 				Grid {
 					GridRow(alignment: .bottom) {
-						if status == .inProgress {
+                        if let call = callManager.activeCall, call.state == .connected {
 							Button {
-								muteMic.toggle()
+                                call.isMuted.toggle()
 							} label: {
 								Image(systemName: "mic.slash.fill")
 							}
 							.frame(maxHeight: .infinity)
 							.gridCellUnsizedAxes(.vertical)
-							.foregroundStyle(muteMic ? .red : .white)
-							.background(muteMic ? .white : .clear)
+                            .foregroundStyle(call.isMuted ? .red : .white)
+                            .background(call.isMuted ? .white : .clear)
 							.buttonStyle(.bordered)
 							.clipShape(RoundedRectangle(cornerRadius: 6))
 							
 							Button {
-								
+                                call.isOnHold.toggle()
 							} label: {
 								Image(systemName: "pause.fill")
 							}
@@ -70,7 +67,9 @@ struct CallWidget: View {
 						}
 						
 						Button {
-							
+                            withAnimation(.snappy(duration: 0.25, extraBounce: 0.1)) {
+                                showDirectory.toggle()
+                            }
 						} label: {
 							Image(systemName: "book.closed.fill")
 						}
@@ -121,9 +120,6 @@ struct CallWidget: View {
 			}
 			.padding()
 			.background(.cardBackgroundSecondary)
-			.onTapGesture {
-				status = .incoming
-			}
 		}
 		.onHover { isHovering = $0 }
 		.foregroundStyle(.white)
@@ -137,17 +133,23 @@ struct CallWidget: View {
 }
 
 #Preview("Incoming") {
-	CallWidget()
-		.previewLayout(.sizeThatFits)
+    @State var callManager = CallManager()
+    return CallWidget()
+        .previewLayout(.sizeThatFits)
+        .environment(callManager)
 }
 
 #Preview("In Progress") {
-	CallWidget()
-		.previewLayout(.sizeThatFits)
+    @State var callManager = CallManager()
+    return CallWidget()
+        .previewLayout(.sizeThatFits)
+        .environment(callManager)
 }
 
 #Preview("Nothing") {
-	CallWidget()
+    @State var callManager = CallManager()
+    return CallWidget()
 		.previewLayout(.sizeThatFits)
+        .environment(callManager)
 }
 

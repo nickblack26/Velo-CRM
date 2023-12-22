@@ -1,59 +1,19 @@
 import Foundation
-import Observation
 
-@Observable
-final class VeloCall {
-	
+final class CallModel {
 	// MARK: - Metadata Properties
-	
 	let uuid: UUID
 	let isOutgoing: Bool
 	var handle: String?
 	
 	// MARK: - Call State Properties
-	
-	var connectingDate: Date? {
-		didSet {
-			stateDidChange?()
-			hasStartedConnectingDidChange?()
-		}
-	}
-	
-	var connectDate: Date? {
-		didSet {
-			stateDidChange?()
-			hasConnectedDidChange?()
-		}
-	}
-	
-	var endDate: Date? {
-		didSet {
-			stateDidChange?()
-			hasEndedDidChange?()
-		}
-	}
-	
-	var isOnHold = false {
-		didSet {
-			stateDidChange?()
-		}
-	}
-	
-	var isMuted = false {
-		didSet {
-			stateDidChange?()
-		}
-	}
-	
-	// MARK: - State Change Callbacks
-	
-	var stateDidChange: (() -> Void)?
-	var hasStartedConnectingDidChange: (() -> Void)?
-	var hasConnectedDidChange: (() -> Void)?
-	var hasEndedDidChange: (() -> Void)?
+	var connectingDate: Date?
+	var connectDate: Date?
+	var endDate: Date?
+	var isOnHold = false
+	var isMuted = false
 	
 	// MARK: - Derived Properties
-	
 	var hasStartedConnecting: Bool {
 		get {
 			return connectingDate != nil
@@ -100,7 +60,7 @@ final class VeloCall {
 	
 	/// Starts a new call with the specified completion handler to indicate if the call was successful.
 	/// - Parameter completion: A closure to execute when the call attempt is made, to indicate if the call was successful.
-	func startVeloCall(completion: ((_ success: Bool) -> Void)?) {
+	func startCall(completion: ((_ success: Bool) -> Void)?) {
 		// Simulate the call starting successfully.
 		completion?(true)
 		
@@ -118,7 +78,7 @@ final class VeloCall {
 	}
 	
 	/// Answers an incoming call.
-	func answerVeloCall() {
+	func answerCall() {
 		/*
 		 Simulate the answer is connected immediately,
 		 because the example app is not backed by a real network service.
@@ -127,7 +87,7 @@ final class VeloCall {
 	}
 	
 	/// Ends the current call.
-	func endVeloCall() {
+	func endCall() {
 		/*
 		 Simulate the end takes effect immediately,
 		 because the example app is not backed by a real network service.

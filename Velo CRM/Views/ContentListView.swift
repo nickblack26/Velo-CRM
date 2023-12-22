@@ -8,7 +8,7 @@
 import SwiftUI
 
 struct ContentListView: View {
-	@Binding var selectedTab: SidebarTab?
+	@Binding var selectedTab: SidebarSection?
 	@Binding var columnVisibility: NavigationSplitViewVisibility
 	
     var body: some View {

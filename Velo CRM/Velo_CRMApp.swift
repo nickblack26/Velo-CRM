@@ -3,7 +3,8 @@ import SwiftUI
 @main
 struct Velo_CRMApp: App {
 	@UIApplicationDelegateAdaptor private var appDelegate: AppDelegate
-	@State private var manager = VeloManager()
+    @State private var manager = VeloManager()
+	@State private var callManager = CallManager()
 	
 	init() {
 		UNUserNotificationCenter.current().requestAuthorization(options: [.alert, .badge, .sound]) { status, error in
@@ -17,11 +18,12 @@ struct Velo_CRMApp: App {
 			RootView {
 				ContentView()
 					.overlay(alignment: .bottomTrailing) {
-						CallWidget()
+                        CallWidget()
 							.padding()
 					}
 			}
 		}
-		.environment(manager)		
+        .environment(manager)        
+		.environment(callManager)		
 	}
 }
